@@ -1,0 +1,25 @@
+O projeto consiste em traçar rotas de acordo com o algoritmo de Custo Uniforme para uma empresa de telecomunicação sediada em Aracaju que presta serviços para o estado de Sergipe.
+Nesse projeto serão usadas a seguintes cidades:
+
+-Aracaju                                                                        -São Domingos
+-Barra dos Coqueiros                                                    -Lagarto
+-Nossa Senhora do Socorro                                            -Macambira
+-Laranjeiras                                                                  -Ribeirópolis
+-São Cristóvão                                                              -Frei Paulo  
+-Itaporanga                                                                   -Nossa Senhora Aparecida
+-Areia Branca                                                                -Carira
+-Malhador                                                                      -Nossa Senhora da Glória    
+-Moita Bonita                                                                -Monte Alegre
+-Itabaiana                                                                     -Poço Redondo 
+-Campo do Brito                                                            
+
+
+E para a determinação final da função g - que é a distância do ponto inicial ao ponto atual - são usados os seguntes pesos:
+1- Qualidade da rodovia (variação de 0 a 1)
+2- Fluxo de trânsito (variação de 0 a 1)
+3- Nível de violência (variação de 0 a 1)
+
+Além desses pesos, de acordo com o tipo de serviço a ser prestado no destino da viagem, o programa exibirá qual é o tipo de transporte mais adequado para atender o cliente. O serviços são enumerados de acordo com a escala abaixo: 
+1- Manutenção e suporte 
+2 - Instalações de pequeno porte
+3- Instalações de grande porte
